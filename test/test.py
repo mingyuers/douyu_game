@@ -10,9 +10,11 @@ import time
 # time.sleep(2)
 # keyboard.write('22222')
 
-def test(e):
-    print e
-
-
-keyboard.hook(test)
-keyboard.wait('=')
+# def test(e):
+#     print e
+#
+#
+# keyboard.hook(test)
+# keyboard.wait('=')
+time.sleep(2)
+keyboard.press_and_release('enter')
